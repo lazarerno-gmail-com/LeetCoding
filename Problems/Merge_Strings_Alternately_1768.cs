@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCoding
+namespace LeetCoding.Problems
 {
     /// <summary>
     /// You are given two strings word1 and word2.
@@ -19,7 +19,7 @@ namespace LeetCoding
     /// word2:    p q   r
     /// merged: a p b q c r
     /// </summary>
-    public class Merge_Strings_Alternately_1768: IProblem
+    public class Merge_Strings_Alternately_1768// : IProblem
     {
         private string _word1;
         private string _word2;

@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using LeetCoding.Problems;
+
+new Two_Sum_1.Test1();
+
+Console.ReadLine();
