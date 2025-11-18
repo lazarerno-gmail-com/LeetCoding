@@ -29,5 +29,12 @@ namespace LeetCoding.Infrastructure
             Console.Write(message);
             Console.Write(value);
         }
+
+        public static void Dump(string message, int? value)
+        {
+            Console.WriteLine();
+            Console.Write(message);
+            Console.Write(value ?? "<NULL>");
+        }
     }
 }
