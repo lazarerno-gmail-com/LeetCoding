@@ -14,13 +14,20 @@ namespace LeetCoding.Infrastructure
             Console.Write(message);
             if (collection == null || collection.Length == 0)
                 Console.Write("<no values>");
-            else 
+            else
                 for (int i = 0; i < collection.Length; i++)
                 {
-                    if(i > 0)
+                    if (i > 0)
                         Console.Write(", ");
                     Console.Write(collection[i]);
                 }
-        } 
+        }
+
+        public static void Dump(string message, bool value)
+        {
+            Console.WriteLine();
+            Console.Write(message);
+            Console.Write(value);
+        }
     }
 }
