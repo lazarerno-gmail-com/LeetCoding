@@ -34,7 +34,7 @@ namespace LeetCoding.Infrastructure
         {
             Console.WriteLine();
             Console.Write(message);
-            Console.Write(value ?? "<NULL>");
+            Console.Write(value == null ? "<NULL>" : value);
         }
     }
 }

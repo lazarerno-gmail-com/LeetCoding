@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LeetCoding.Infrastructure;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -54,7 +55,7 @@ namespace LeetCoding.Problems
         {
             public Test1()
             {
-                int[] input = [6, 9, 3, 7, 8, 0, 14];
+                int[] input = [5, 9, 3, 7, 8, 0, 14];
                 var problem = new Find_duplicates_return_first(input);
 
                 Dump(problem, input);
@@ -66,6 +67,17 @@ namespace LeetCoding.Problems
             public Test2()
             {
                 int[] input = [6, 9, 3, 7, 3, 0, 14];
+                var problem = new Find_duplicates_return_first(input);
+
+                Dump(problem, input);
+            }
+        }
+
+        public class Test3 : TestsBase
+        {
+            public Test3()
+            {
+                int[] input = [6, 9, 6, 3, 7, 3, 0, 14];
                 var problem = new Find_duplicates_return_first(input);
 
                 Dump(problem, input);
