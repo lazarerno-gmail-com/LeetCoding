@@ -10,7 +10,7 @@ namespace LeetCoding.Problems
     /// <summary>
     /// 
     /// Return the first duplicate in an array of integers.
-    /// Return NULL if there is no duplicate to be found.
+    /// Return NULL if no duplicate was found.
     /// 
     /// </summary>
     internal class Find_duplicates_return_first: IProblem<int?>
