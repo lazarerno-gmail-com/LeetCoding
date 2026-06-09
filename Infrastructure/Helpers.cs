@@ -30,6 +30,13 @@ namespace LeetCoding.Infrastructure
             Console.Write(value);
         }
 
+        public static void Dump(string message, string value)
+        {
+            Console.WriteLine();
+            Console.Write(message);
+            Console.Write(string.IsNullOrWhiteSpace(value) ? "<NULL>" : value);
+        }
+
         public static void Dump(string message, int? value)
         {
             Console.WriteLine();
